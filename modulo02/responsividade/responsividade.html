@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+        body{
+            background-color: rgb(141, 165, 235);
+        }
+       
+       picture> img{
+            border-radius: 10px;
+            border: 10px groove black;
+            padding: 2px;
+            margin: 5px;
+                   
+            
+        }
+        header{
+            
+              background-color: rgb(96, 96, 218);
+              padding: 10px;
+             text-align: center;
+             box-shadow: 3px 2px 1px black;
+             margin: 0px 0px 10px 0px;
+            
+        }
+        header>h1{
+            color: rgb(180, 132, 132);
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+        body{
+            margin: 0px;
+           
+        }
+        main{
+            background-color: rgb(46, 118, 131);
+            margin: 10px;
+            padding: 15px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 0px  black;
+           
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Criando um Site responsivo</h1>
+    </header>
+
+    <main>
+        <picture>
+        
+         <source media="(max-width: 1000px)" srcset="irina-blok-pq.jpg" type="image/jpg">
+         <img src="irina-blok.jpg" alt="log android">
+          </picture>
+          <picture >
+            <source  media="(max-width: 700px )" srcset="p.png" type="image/png">
+            <source media="(max-width: 1000px )" srcset="m.png" type="image/png">
+
+            <img src="g.png" alt="g">
+          </picture>
+    </main>
+    
+</body>
+</html>

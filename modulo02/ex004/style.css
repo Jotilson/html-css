@@ -1,0 +1,44 @@
+ @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+     @font-face {
+    font-family: 'feeling';
+    src: url('fontes/Feeling\ Lovely.ttf') format('truetype');
+
+   
+}
+ body{
+     font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+    background-image: linear-gradient(to bottom,rgb(194, 167, 167), rgb(126, 110, 110));
+    background-attachment: fixed;
+ }
+ h1{
+     font-family: "Fredericka the Great", system-ui;
+     font-size: 3em;
+     font-weight: normal;
+     font-style: italic;
+     
+ }
+ h2{
+     font-family: "feeling";
+     font-size: 2em;
+    
+ }
+ main{
+    background-color: beige;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px;
+
+
+
+ }
+ 

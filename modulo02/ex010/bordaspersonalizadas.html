@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas Prsonalizadas</title>
+    <style>
+        h1{
+            border: 10px solid black;
+            padding: 10px;
+           
+            border-image: url('imagens/borda.png') 37 repeat;
+        }
+        h2{
+            border: 10px groove black;
+            padding: 5px;
+
+            border-image: url('imagens/borda.png') 35 repeat ;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Teste de Borda
+    </h1>
+    
+
+     <h2>Olá, Mundo</h2>
+
+     <picture>
+        <source media="(max-width:1000px )" srcset="imagens/borda.png">
+        <img src="imagens/borda.png" alt="log bordas">
+     </picture>
+</body>
+</html>

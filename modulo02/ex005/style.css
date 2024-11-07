@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+     @font-face {
+        font-family: 'feeling';
+        src: url('Feeling\ Lovely.ttf') format('truetype');
+ }
+      
+body{
+    background-image: linear-gradient( to bottom,  #3c48c0,#9a63d8,#a00e9d,#e22b93);
+    background-attachment: fixed;
+   
+}
+h1{
+    text-align: center;
+    background-image: linear-gradient( to bottom,  #0d1fe8,#792cd2,#e32ee0,#ed319b);
+   
+    font-weight: 100;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow:1px 2px 3px  #003049;
+        font-family: "feeling";
+        font-size: 3em;
+        font-style: italic;
+        color: #360b67;
+    
+}
+h2{
+    text-align: right;
+    font-family: 'feeling';
+    color: #470792;
+}
+p{
+    text-align:center;
+    text-indent: 1em;
+}
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

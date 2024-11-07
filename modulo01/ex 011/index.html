@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos difirentes ou simplesmente aumente ou diminui o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        
+        <source media="(max-width: 1000px )" srcset="imagens/foto-m.png" type="image/png">
+        
+        <img src="imagens/fotro-g.png" alt="imagem flexivel">       
+    </picture>
+
+  <h1>Reproduzindo aúdio</h1>
+  <p>Vamos aprender a reproduzir aúdios em HTML5.</p>
+   <audio preload="metadata" controls loop 
+   src="midia/Veil of mysteries. - Patrick Patrikios.mp3" >
+</audio> <br>
+<audio loop src="midia/ALONGI MOKILI BIS.mp3" controls>
+</audio>
+    <ul>
+        <li><a href="midia/Veil of mysteries. - zip.zip" download="viel of mysteries" type="application/zip">clique aqui para baixar o primeiro aúdio.</a></li>
+        <li><a href="midia/ALONGI MOKILI BIS-zip.zip" download="ALONGI MOKILI BIS" type="application/zip">clique aqui para baixar o segundo.</a> </li>
+        <li>Ou acesse este link para de onde vem este aúdio <a href="https://studio.youtube.com/channel/UChTbGZxWticqlP61l_iQESg/music" target="_blank" rel="external">Viel of mysteries</a></p></li>
+    </ul>
+   <!--Também existe diferentes formatos de aúdios além do MP3 como WAV e OGG-->
+   
+
+</body>
+</html>
